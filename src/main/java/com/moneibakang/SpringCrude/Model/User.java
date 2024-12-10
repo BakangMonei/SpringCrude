@@ -3,7 +3,7 @@ package com.moneibakang.SpringCrude.Model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "userstable")
 public class User {
 
     @Id
