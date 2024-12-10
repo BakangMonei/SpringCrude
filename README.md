@@ -12,15 +12,14 @@ Here’s a summary of the endpoints for CRUD operations:
 - **Method:** POST
 - **Endpoint:** `http://localhost:8080/api/users`
 - **Body (JSON):**
-  ```
-  {
+  
+  `{
   "email": "johndoe@example.com",
   "firstname": "John",
   "lastname": "Doe",
   "phonenumber": "1234567890",
   "physicaladdress": "123 Main St"
-  }
-  ```
+  }`
 
 ##### **2. Retrieve All Users**
 
@@ -39,12 +38,12 @@ Here’s a summary of the endpoints for CRUD operations:
 * **Endpoint**: `http://localhost:8080/api/users/{email}`
 * **Body (JSON):**
 
-    ```{
+    `{
     "firstname": "John",
     "lastname": "Smith",
     "phonenumber": "0987654321",
     "physicaladdress": "456 Elm St"
-    }```
+    }`
 
 ##### **5.Delete a User**
 
